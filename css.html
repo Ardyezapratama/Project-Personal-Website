@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		p{
+			text-align: justify;
+			font-family: sans-serif;
+		}
+		#css{
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 60px;
+			display:block;
+		}
+    </style>
+</head>
+<body>
+	<!------navbar-->
+	<nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+	  <div class="container">
+	  	 <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  			Menu
+		</a>
+	    <a class="navbar-brand" href="index.html">
+	      <img src="images/logo-black.png" alt="" width="50" height="40">
+	    </a>
+	   
+	    <div class="dropdown">
+  			<button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    		<i class="fas fa-bars"></i>
+  			</button>
+  			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+  			  <li><a class="dropdown-item" href="#">Home</a></li>
+  			  <li><a class="dropdown-item" href="#about">About</a></li>
+  			  <li><a class="dropdown-item" href="product.html">Product</a></li>
+  			  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  			</ul>
+		</div>
+	  </div>
+	</nav>
+	<!------sidebar---------->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  		<div class="offcanvas-header">
+    		<h5 class="offcanvas-title " id="offcanvasExampleLabel">Eza Pratama</h5>
+    		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  		</div>
+  		<div class="offcanvas-body">
+    	<div class="dropdown mt-3">
+      		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        		Product
+      		</button>
+      		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        		<li><a class="dropdown-item" href="html.html">HTML</a></li>
+        		<li><a class="dropdown-item" href="css.html">CSS</a></li>
+        		<li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+        		<li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+      		</ul>
+    	</div>
+  		</div>
+	</div>
+
+	<section class="container-lg">
+			<div class="row justify-content-center">
+				<div class="col-md-9 py-5 mt-5">
+					<h1 class="fw-bold text-muted text-center">CSS</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 mb-5">
+					<img src="images/css.jpg" width="700" height="400" id="css">
+					<p>CSS berfungsi untuk mengatur seluruh tampilan website sehingga terlihat lebih menarik dan sesuai dengan kebutuhan user. <br>CSS sangat berguna dalam proses pengembangan website, hampir setiap website sekarang menggunakan CSS sebagai tools untuk mengatur berbagai tampilan di dalamnya.</p> <br>
+
+					<h1>Pengertian CSS</h1> <br>
+					<p>CSS adalah kepanjangaan dari Cascading Style Sheets yang berguna untuk menyederhanakan proses pembuatan website dengan mengatur elemen yang tertulis di bahasa markup.</p><br>
+					<p>Ada banyak hal yang bisa dilakukan menggunakan CSS seperti mengatur warna teks, jenis font, baris antar paragraf, ukuran kolom, dan jenis background yang dipakai. CSS juga bisa dipakai untuk mendesign layout, variasi tampilan di berbagai perangkat yang berbeda, dan berbagai efek yang dipakai di dalam website.</p><br><br>
+
+					<h1>Fungsi CSS</h1>
+					<h2>1. Mempercepat Proses Desain</h2>
+					<p>Jika menggunakan CSS cukup mengetikkan satu kali fungsi CSS kemudian menggunakannya diberbagai halaman HTML tanpa harus menyalinya satu persatu. Fungsi CSS yang dibuat dalam satu file dapat dipanggil ke berbagai halaman web tanpa harus menyalin baris kode fungsi berkali-kali.</p> <br><br>
+
+					<h2>2. Halaman Cepat Dimuat</h2>
+					<p>Jika menggunakan CSS tidak perlu menuliskan atribut tag HTML di setiap file, hanya cukup menuliskan satu aturan CSS dan menerapkannya di berbagai file yang dibutuhkan hanya dengan memanggilnya.</p><br>
+					<p>Jadi satu file hanya terdiri dari sedikit baris kode, inilah yang membuat proses download menjadi lebih cepat.</p> <br><br>
+
+					<h2>3. Proses Pemeliharaan Lebih Mudah</h2>
+					<p>CSS memudahkan untuk mengubah tampilan di berbagai halaman. Hanya dengan mengubah fungsi style di file CSS maka seluruh tampilan yang menggunakan fungsi tersebut akan berubah secara otomatis.</p><br><br>
+					<h2>4. Style Lebih Beragam Dibanding degan HTML</h2>
+					<p>CSS mempunyai atribut lebih beragam dibandingkan dengan HTML, dan mempunyai lebih banyak pilihan tampilan halaman website.</p><br><br>
+
+					<h2>5. Kompatible Dengan Berbagai Macam Perangkat</h2>
+					<p>CSS memungkinkan konten dapat dioptimasi dilebih dari satu perangkat. Misal ketika memproses sebuah dokumen. Jika menggunakan CSS, bisa menyesuaikan tampilan dokumen di perangkat versi lama sekaligus di versi yang baru.</p><br><br>
+					<h2>6. CSS Menjadi Standar Pengembangan Website</h2>
+					<p>Hampir seluruh website yang ada di internet menggunakan CSS di dalamnya. Selain tampilannya yang lebih menarik, kebanyakan browser populer saat ini juga mendukung CSS. Jadi jika ingin mengembangkan website yang sesuai standar browser populer, sebaiknya menggunakan CSS.</p><br><br>
+
+					<h1>3 Macam CSS di Dalam HTML</h1>
+					<p>Pada CSS terdapat 3 jenis penulisan kode didalam HTML yaitu <strong>External</strong>, <strong>Internal</strong> dan <strong>Inline</strong>.</p><br><br>
+
+					<h2>External</h2>
+					<p>External CSS adalah penempatan baris kode CSS menggunakan file .css. Cara ini dapat digunakan untuk mendeklarasikan sebagian besar pengaturan tampilan website secara keseluruhan. Cara ini lebih sederhana dan simpel daripada menambahkan baris kode di setiap elemen HTML yang ingin Anda atur tampilannya.</p><br>
+					<p>Jika menggunakan penempatan secara eksternal, Anda harus menambahkan header untuk memanggil file .css di dalam file HTML seperti contoh di bawah ini. 
+					<xmp style="color: red;">
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head></xmp></p><br>
+					<p>Baris kode di atas akan menghubungkan file .html dengan eksternal style sheet (CSS). Pada contoh di atas file CSS menggunakan nama ‘style.css’ yang dapat Anda sesuaikan dengan letak file CSS di dalam direktori website. Ketika file HTML sudah terhubung dengan file CSS maka seluruh pengaturan CSS akan diterapkan di dalam kode HTML.</p><br><br>
+
+					<h2>Internal</h2>
+					<p>Penggunaan CSS secara internal yaitu dengan cara menuliskan kode di bagian header HTML. cara ini sangat cocok untuk dipakai ketika membuat halaman web dengan tampilan yang berbeda. Contoh CSS secara internal seprti di bawah ini.</p>
+					<div class="text-box">
+						<xmp style="color: red;">
+<head>
+<style type="text/css">
+	body{
+		background-color: red;
+	}
+</style>
+</head>
+						</xmp>
+					<p>Baris kode di atas akan menerapkan background dengan warna merah pada bagian body HTML.</p><br><br>
+
+					<h2>Inline</h2>
+					<p>Inline CSS adalah penempatan CSS yang langsung dilakukan di dalam konten HTML. Penempatan CSS secara inline hanya akan mempengaruhi satu bagian baris kode. Berikut adalah contohnya.</p>
+					<xmp style="color: red;"><p style="color:red; font-size: 20px;">Ini adalah paragraf</p>
+					</xmp>
+					<p>CSS di atas berarti hanya akan mempengaruhi paragraf yang spesifik di dalam satu file .html dan muncul dengan warna merah (merah) dan ukuran font 30px.</p>
+				</div>
+			</div>
+		</section>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

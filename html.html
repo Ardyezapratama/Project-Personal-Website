@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>pengenalan html</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		p{
+			text-align: justify;
+			font-family: sans-serif;
+		}
+		#html{
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 60px;
+			display:block;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+	  <div class="container">
+	  	 <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  			Menu
+		</a>
+	    <a class="navbar-brand" href="index.html">
+	      <img src="images/logo-black.png" alt="" width="50" height="40">
+	    </a>
+	   
+	    <div class="dropdown">
+  			<button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    		<i class="fas fa-bars"></i>
+  			</button>
+  			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+  			  <li><a class="dropdown-item" href="index.html">Home</a></li>
+  			  <li><a class="dropdown-item" href="#about">About</a></li>
+  			  <li><a class="dropdown-item" href="product.html">Product</a></li>
+  			  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  			</ul>
+		</div>
+	  </div>
+	</nav>
+	<!------sidebar---------->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  		<div class="offcanvas-header">
+    		<h5 class="offcanvas-title " id="offcanvasExampleLabel">Eza Pratama</h5>
+    		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  		</div>
+  		<div class="offcanvas-body">
+    	<div class="dropdown mt-3">
+      		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        		Product
+      		</button>
+      		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        		<li><a class="dropdown-item" href="html.html">HTML</a></li>
+        		<li><a class="dropdown-item" href="css.html">CSS</a></li>
+        		<li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+        		<li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+      		</ul>
+    	</div>
+  		</div>
+	</div>
+	
+		<!----------Content----------->
+		<section class="container-lg">
+			<div class="row justify-content-center">
+				<div class="col-md-9 py-5 mt-5">
+					<h1 class="fw-bold text-muted text-center">HTML</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 mb-5">
+					<img src="images/html2.jpg" width="700" height="400" id="html">
+					<p>HTML atau Hyper Text Markup Language merupakan sebuah bahasa markup yang digunakan untuk membuat halaman website, secara teknis HTML bukanlah bahasa pemrograman namun bahasa terstruktur yang fungsinya untuk menandai (Mark) bagian-bagian halaman, HTML terdiri dari beberapa susunan yaitu Tag, Elemen, dan Atribut sehingga browser dapat menerjemahkan dokumen HTML ke bentuk visual dan suara.</p> <br>
+					<p>Untuk membangun sebuah halaman web yang menarik dan interaktif HTML tidak sendirian, di butuhkan beberapa teknologi bahasa pemrograman web seperti CSS, Javascript, Ajax, JSON dan Flash, meskipun Flash sudah jarang sekali digunakan dikarenakan membutuhkan proses load halaman yang dapat memberatkan. <br>Dari sedemikian teknologi bahasa pemrograman web tetapi tanpa HTML tidak akan terjadi apa-apa.</p> <br>
+
+				<!------------mengenal tag, element dan atribut ----------------->
+
+					<h1>Mengenal Tag HTML, Element dan Atribut</h1> <br>
+
+				<!------------Tag ----------------->
+
+					<h2>1. Tag</h2>
+					<p>Tag adalah tanda awalan dan akhiran dalam sebuah perintah HTML yang di baca oleh web browser. Tag dibuat dengan menggunakan kurng siku <...>, dimana di dalamnya berisi nama tag.</p> Contoh : < p >, < a >, < head >, dan sebagainya. <br><br>
+					<p>Setiap tag memiliki fungsi perintah yang berbeda - beda. Mulai dari membuat judul, paragraf, heading, <strong>cetak tebal</strong>, <em>miring</em>, <i>italic</i>, dan lainnya</p><br>
+					<p>Selain itu, tag ditulis secara berpasangan, yaitu tag pembuka dan tag penutup.  Pada tag penutup ditambahkan garis miring (/) di depan nama tag. </p> <br>
+					<div class="row justify-content-center">
+						<div class="col-md-12">
+							<img src="images/tag.png" style=" margin-left:auto; margin-right:auto; margin-bottom: 60px; display:block;" id="contoh1">
+						</div>
+					</div>
+					<p>Setiap tag memiliki fungsi masing-masing. Ada yang digunakan untuk membuat judul, membuat link, membuat paragraf, heading, dan lain-lain.</p>
+
+					<ul>
+						<li>< html > berfungsi untuk memulai dokumen HTML.</li>
+						<li>< head > berfungsi untuk membuat bagain head.</li>
+						<li>< body > berfungsi untuk membuat bagian body</li>
+						<li>< h1 > sampai < h2 > berfungsi untuk membuat heading pada artikel, semakin besar angakanya maka akan semakin kecil ukuran headingnya.</li>
+						<li>< p > berfungsi untuk membuat paragraf.</li>
+						<li>< !-- -- > berfungsi untuk membuat komentar</li>
+					</ul>
+
+					<h3>Cara Menulis Tag HTML yang benar</h3>
+					<p>Berikut ini beberapa saran yang perlu diikuti agar bisa menulis tag dengan benar:</p>
+
+					<h4>1. Tag-tag wajib</h4>
+					<p>Ada beberapa tag yang wajib ada di HTML. Tag ini wajib ditulis, kalau tidak ditulis bisa jadi kode HTML akan error menurut validator W3C. <br> <br>
+					Berikut ini daftar tag yang wajib ada di HTML : </p>
+					<ul>
+						<li>< !DOCTYPE html > berfungsi untuk deklarasi type dokumen.</li>
+						<li>< html > merupakan tag utama dalam HTML.</li>
+						<li>< head > merupakan bagaian kepala dari dokumen.</li>
+						<li>< title > merupakan judul web.</li>
+						<li>< body > merupakan bagian body dari dokumen.</li>
+					</ul>
+					<h4>2. Gunakan huruf kecil</h4>
+					<p>Hindari menggunakan hurf besar dalam menuliskan nama tag dan sebaliknya gunakan huruf kecil saja. <br> <br> Huruf kecil lebih gampang diketik dan juga akan membuat kode HTML terlihat lebih bersih dan rapi. Tapi kusus unutk tag < !DOCTYPE html > ditulis dengan huruf besar. sebenarnya juga bisa dengan huruf kecil dan akan valid menurut validator W3C. Tapi untuk dokumen XHTML, menggunakan DOCTYPE dengan huruf kecil akan mengakibatkan error.</p>
+					<h4>3. Pastikan menutup tag dengan benar</h4>
+					<p>Tag HTML, nantinya akan ditulis bertumpuk - tumpuk. Artinya, di dalam tag ada tag lagi. Terkadang kita sering salah dalam menutup tag yang bertumpuk ini. Akibatnya, kode HTML tidak valid.</p>
+
+				<!------------Element ----------------->
+
+					<h2>2. Element</h2>
+					<p>Elemen merupakan komponen HTML yang berupa keseluruhan kode dari tag pembuka hingga tag penutup. Elemen terdiri dari teks dan simbol yang berupa tag pembuka, isi tag atau konten, dan tag penutup. </p><br>
+					<p>Pada sebuah elemen juga bisa berisi elemen lainnya. Jadi elemen tersebut tak hanya berisi satu tag saja, tetapi banyak tag. Elemen itu disebut nested elements. </p><br><br><br>
+
+				<!------------Atribut ----------------->
+
+					<h2>3. Atribut</h2>
+					<p>Atribut adalah informasi atau perintah tambahan yang berada dalam elemen. Atribut ini berfungsi sebagai penjelas perintah tag pada elemen. 
+					</p><br>
+					<p>misalnya, <xmp style="color: red;"><img src=”gambar.jpg” alt “Gambar Pegunungan.”></xmp></p>
+					<p>Tag <"img"> memiliki atribut khusus yaitu (scr) dan (alt) yang artinya browser harus menampilkan gambar.jpg dengan alt text “Gambar Pegunungan”. </p><br>
+					<p>Dari contoh di atas atribut dalam sebuah tag bisa lebih dari satu, akan tetapi ada beberapa atribut yang tidak bisa digunakan dalam sebuah tag. Contohnya src, href, action, autoplay.</p>
+				</div>
+			</div>
+		</section>
+
+		
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

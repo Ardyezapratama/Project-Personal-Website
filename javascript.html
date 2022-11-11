@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+		p{
+			text-align: justify;
+			font-family: sans-serif;
+			font-weight: 2em;
+		}
+		#javascript{
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 60px;
+			display:block;
+		}
+	</style>
+	</style>
+	<title>Javascript</title>
+</head>
+<body>
+	<!------navbar-->
+	<nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+	  <div class="container">
+	  	 <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  			Menu
+		</a>
+	    <a class="navbar-brand" href="index.html">
+	      <img src="images/logo-black.png" alt="" width="50" height="40">
+	    </a>
+	   
+	    <div class="dropdown">
+  			<button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    		<i class="fas fa-bars"></i>
+  			</button>
+  			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+  			  <li><a class="dropdown-item" href="index.html">Home</a></li>
+  			  <li><a class="dropdown-item" href="#about">About</a></li>
+  			  <li><a class="dropdown-item" href="product.html">Product</a></li>
+  			  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  			</ul>
+		</div>
+	  </div>
+	</nav>
+	<!------sidebar---------->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  		<div class="offcanvas-header">
+    		<h5 class="offcanvas-title " id="offcanvasExampleLabel">Eza Pratama</h5>
+    		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  		</div>
+  		<div class="offcanvas-body">
+    	<div class="dropdown mt-3">
+      		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        		Product
+      		</button>
+      		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        		<li><a class="dropdown-item" href="html.html">HTML</a></li>
+        		<li><a class="dropdown-item" href="css.html">CSS</a></li>
+        		<li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+        		<li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+      		</ul>
+    	</div>
+  		</div>
+	</div>
+
+	<!----------Content----------->
+		<section class="container-lg">
+			<div class="row justify-content-center">
+				<div class="col-md-9 py-5 mt-5">
+					<h1 class="fw-bold text-muted text-center">JAVASCRIPT</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8 mb-5">
+					<img src="images/javasript.jpg" width="860" height="550" id="javascript">
+					<p>
+						Javascript merupakan bahasa pemrograman yang wajib dipelajari jika ingin mendalami dunia web developtmet. Saat ini javascript tidak hanay digunakan di sisi client (browser) saja. Javascript juga digunakan pada server, console, program dekstip, mibile, IoT, game dan lain - lain.
+					</p> <br>
+					<p>
+						Javascript awalnya bernama Mocha, lalu berubah menjadi LiveScript saat browser Netscape Navigator 2.0 rilis versi beta (september 1995). Namun, setelah itu dinami ulang menjadi Javascript.
+					</p> <br>
+
+					<h3>Peralatan untuk Belajar Javascript</h3><br>
+
+					<p>
+						Peralatan yang harus disiapkan untuk belajar Javascript yaitu : 
+					</p>
+					<ul>
+						<li>Web Browser (Google Chrome, Firefox, Opera dll</li>
+						<li>Teks Editor (Sublime Text, VS Code, dll</li>
+					</ul><br>
+
+					<h3>Penulisan Kide Javascript dengan Embed</h3><br>
+					<p>
+						Pada cara ini menggunakan tag "script" untuk menempelkan (embed) kode Javascript pada HTML. Tag ini dapat ditulis di dalam tag "head" dan "body". 
+						<br><br>
+						Contoh : 
+						<xmp>
+<!DOCTYPE html>
+<html>
+  <head>
+   <title>Belajar Javascript dari Nol</title>
+     <script>
+       // ini adalah penulisan kode javascript
+       // di dalam tag <head>
+       console.log("Hello JS dari Head");
+     </script>
+  </head>
+  <body>
+    <p>Tutorial Javascript untuk Pemula</p>
+     <script>
+      // ini adalah penulisan kode javascript
+      // di dalam tag <body>
+      console.log("Hello JS dari body");
+     </script>
+  </body>
+</html>
+						</xmp>
+
+					</p>
+					<br>
+
+					<h3>Penulisan Kode Javascript Inline</h3>
+					<br>
+					<p>
+						Pada cara ini, kode javascript di letakkan di dalam atribut HTML. Cara ini biasanya digunakan untuk memanggil suatu fungsi pada event tertentu. Misalnya pada saat link diklik. <br><br>
+
+						Contoh : 
+
+						<xmp>
+<a href="#" onclick="alert('Yey!')">Klik aku!</a>		
+						</xmp>
+
+						Atau bisa juga seperti ini : 
+						<xmp>
+<a href="javascript:alert('Yey!')">Klik aku!</a>		
+						</xmp>
+
+					</p><br>
+
+					<h3> Penulisan Kode Javascript External</h3><br>
+
+					<p>Pada cara ini, penulisan kode javascript secara terpisah dari file HTML. <br>
+					Cara ini biasayan digunakan pada proyek - proyek besar, karena diyakini dengan cara ini dapat lebih mudah mengelola kode project. <br> <br>
+					Contoh : <br>
+					pertama buat terlebih dahulu file HTML dan Javascript. <br><br>
+
+					belajar-js/<br>
+					|-- kode-program.jsbr
+					|-- index.html <br><br>
+
+					Isi dari file kode-program.js
+					<xmp>
+alert("Hello, ini adalah program JS eksternal!");		
+					</xmp>
+					Isi dari file index.html
+					<xmp>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Belajar Javascript dari Nol</title>
+    </head>
+    <body>
+        <p>Tutorial Javascript untuk Pemula</p>
+
+        <!-- Menyisipkan kode js eksternal -->
+        <script src="kode-program.js"></script>
+    </body>
+</html>						
+					</xmp>
+
+					Jadi caranya adalah dengan menyisipkan dengan memberikan atribut "src" pada tag "script". Maka, apapun yang ada di dalam file kode-program.js akan dapat dibaca dari file index.html.
+
+
+					</p>
+
+
+
+					
+
+				
+
+					
+				</div>
+			</div>
+		</section>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

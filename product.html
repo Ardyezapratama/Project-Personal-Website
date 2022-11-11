@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<title>Product</title>
+</head>
+<body>
+
+	<!------navbar-->
+	<nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+	  <div class="container">
+	  	 <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  			<i class="fas fa-bars"></i>
+		</a>
+	    <a class="navbar-brand" href="index.html">
+	      <img src="images/logo-black.png" alt="" width="50" height="40">
+	    </a>
+	   
+	    <div class="dropdown">
+  			<button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    		Menu
+  			</button>
+  			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+  			  <li><a class="dropdown-item" href="index.html">Home</a></li>
+  			  <li><a class="dropdown-item" href="#about">About</a></li>
+  			  <li><a class="dropdown-item" href="product.html">Product</a></li>
+  			  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  			</ul>
+		</div>
+	  </div>
+	</nav>
+	<!------sidebar---------->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  		<div class="offcanvas-header">
+    		<h5 class="offcanvas-title " id="offcanvasExampleLabel">Eza Pratama</h5>
+    		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  		</div>
+  		<div class="offcanvas-body">
+    	<div class="dropdown mt-3">
+      		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        		Product
+      		</button>
+      		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        		<li><a class="dropdown-item" href="html.html">HTML</a></li>
+        		<li><a class="dropdown-item" href="css.html">CSS</a></li>
+        		<li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+        		<li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+      		</ul>
+    	</div>
+  		</div>
+	</div>
+
+	
+
+	<section class="site-map">
+		<div class="container-lg mb-5">
+			<div class="row py-4 justify-content-center align-item-center">
+				<div class="col-md-6 mt-5">
+					<h2 class="fw-bold text-muted text-center">SITE MAP</h2>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-8">
+					<img src="images/sitemap.png" height="450" width="700" id="sitemap1">
+				</div>
+			</div>
+			<div class="row justify-content-center mt-5">
+				<div class="col-md-4">
+					<h2 class="fw-bold text-muted text-center">INTERFACE</h2>
+				</div>
+			<div class="row justify-content-center mt-3">
+				<div class="col-md-12">
+					<div class="row justify-content-center">
+					<div class="col-md-5 mt-4">
+					<p class="text-muted text-center fw-bold">Home Page</p>
+					<img src="images/home-page.png " height="550" width="450" id="homepage">
+					</div>
+					<div class="col-md-5 mt-3">
+						<p class="text-muted text-center fw-bold">Product Page</p>
+						<img src="images/productpage.png" height="350" width="450" id="productpage">
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

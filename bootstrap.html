@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e54ca36ed8.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+	p{
+			text-align: justify;
+			font-family: sans-serif;
+		}
+		#bootstrap{
+			margin-left:auto;
+			margin-right:auto;
+			margin-bottom: 60px;
+			display:block;
+		}
+	</style>
+	<title>Bootstrap</title>
+</head>
+<body>
+
+	<!------navbar-->
+	<nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+	  <div class="container">
+	  	 <a class="btn btn-secondary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+  			Menu
+		</a>
+	    <a class="navbar-brand" href="index.html">
+	      <img src="images/logo-black.png" alt="" width="50" height="40">
+	    </a>
+	   
+	    <div class="dropdown">
+  			<button class="btn btn-secondary px-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    		<i class="fas fa-bars"></i>
+  			</button>
+  			<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+  			  <li><a class="dropdown-item" href="index.html">Home</a></li>
+  			  <li><a class="dropdown-item" href="#about">About</a></li>
+  			  <li><a class="dropdown-item" href="product.html">Product</a></li>
+  			  <li><a class="dropdown-item" href="#contact">Contact</a></li>
+  			</ul>
+		</div>
+	  </div>
+	</nav>
+
+	<!------sidebar---------->
+	<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  		<div class="offcanvas-header">
+    		<h5 class="offcanvas-title " id="offcanvasExampleLabel">Eza Pratama</h5>
+    		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  		</div>
+  		<div class="offcanvas-body">
+    	<div class="dropdown mt-3">
+      		<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        		Product
+      		</button>
+      		<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        		<li><a class="dropdown-item" href="html.html">HTML</a></li>
+        		<li><a class="dropdown-item" href="css.html">CSS</a></li>
+        		<li><a class="dropdown-item" href="javascript.html">Javascript</a></li>
+        		<li><a class="dropdown-item" href="bootstrap.html">Bootstrap</a></li>
+      		</ul>
+    	</div>
+  		</div>
+	</div>
+
+
+  	<!----------Content----------->
+	<section class="container-lg">
+			<div class="row justify-content-center">
+				<div class="col-md-9 py-5 mt-5">
+					<h1 class="fw-bold text-muted text-center">BOOTSTRAP</h1>
+				</div>
+			</div>
+			<div class="row justify-content-center bg-pramary">
+				<div class="col-md-12 mb-2">
+					<img src="images/bootstrap.png" width="700" height="400" id="bootstrap">
+				</div>
+				<div class="col-md-7 mb-5">
+					<p>
+						Bagi developer, framework bukanlah hal baru. Terlebih lagi framework memiliki kumpulan sintaks untuk berbagai task sehingga mereka bisa membuat website secepat mungkin. Karena dengan adanya framework, developer tidak perlu menjalankan perintah dan fungsi dasar. <br> <br>
+
+						Banyaknya user yang menggunakan library di framework mengharuskan adanya perubahan di berbagai aspek. Hal ini menurunkan konsistensi framework dan menjadi kelemahan tersendiri. Bootstrap pun hadir dan menjawab permasalahan ini. <br> <br>
+
+						Bootstrap adalah framework open-source khusus front end yang awalnya dibuat oleh Mark Otto dan Jacob Thornton untuk mempermudah dan mempercepat pengembangan web di front end. <br> <br>
+
+						Bootstrap memiliki semua jenis HTML dan template desain berbasis CSS untuk berbagai fungsi dan komponen, seperti navigasi, sistem grid, carousel gambar, dan tombol (button). <br> <br>
+
+						Framework ini memang menghemat waktu developer karena tidak perlu mengelola template berkali-kali. Namun, fungsi utama dari Bootstrap adalah untuk membuat situs yang responsif. Interface website akan bekerja secara optimal di semua ukuran layar baik di layar smartphone maupun layar komputer/laptop. <br> <br>
+
+						Developer tak perlu lagi mendesain situs khusus untuk perangkat tertentu. Trafik dan jangkauan audiens versi desktop tidak akan hilang dan tetap diarahkan ke website versi mobile. <br> <br>
+						User dan komunitas Bootstrap semakin berkembang. Developer dan designer website bisa bertukar informasi dan juga berdikusi mengenai patch framework terbaru.
+					</p>
+					<h3>3 File Utama Bootstrap</h3>
+					<p>bootsrap berisikan sekumpulan sintaks yang menjalankan fungsi spesifik, bootstrap memiliki tipe file di dlamanya. Brikut tiga file utama yang mengelola interface user dan fungsionalitas website.</p>
+					<h4>Bootstrap.css</h4>
+					<p>Bootstrap.css adalah framework yang mengatur dan mengelola layout website. HTML mengatur konten dan struktur halaman web, sedangkan CSS berurusan dengan layout situs. Oleh karena itu, kedua struktur ini harus bekerja bersama-sama untuk melakukan tindakan tertentu. <br><br>
+
+					Dengan CSS, Anda bisa menghadirkan tampilan yang seragam di banyak halaman website. Semua ini berkat keberadaan fungsinya. Anda pun tak perlu lagi menghabiskan waktu berjam-jam lamanya hanya untuk mengubah, misalnya, lebar desain.<br><br>
+
+					Jika menggunakan CSS, yang perlu dilakukan adalah merujuk atau mengarahkan halaman web ke file CSS. Nantinya semua perubahan dapat dilakukan di satu file saja.<br><br>
+
+					Fungsi CSS tidak terbatas hanya di gaya teks saja, tetapi juga dapat digunakan untuk membuat aspek lainnya di halaman web, seperti tampilan tabel dan gambar.<br><br>
+
+					Sayangnya, CSS punya banyak declaration dan selector. Jadi, Anda butuh waktu untuk mengingat keduanya.</p>
+					<h4>Bootstrap.jss</h4>
+					<p>File ini merupakan bagian inti dari Bootstrap. Di dalamnya terdapat file JavaScript yang bertanggung jawab atas interaktivitas website.
+
+					Developer menggunakan jQuery untuk menghemat waktu karena tidak perlu menulis sintaks JavaScript berulang kali. jQuery sendiri adalah open source yang populer dan juga library JavaScript lintas platform yang memperbolehkan usernya untuk menambah berbagai fungsionalitas ke website.
+
+					Berikut contoh fungsi dan kegunaan jQuery:</p>
+					<ul>
+						<li>Menjalankan permintaan Ajax, seperti mengurangi (subtract) data dari lokasi lain secara dinamis.</li>
+						<li>Membuat widget menggunakan koleksi plugin JavaScript.</li>
+						<li>Membuat animasi menggunakan CSS property.</li>
+						<li>Membuat konten website terlihat lebih dinamis.</li>
+					</ul>
+					<p>Walaupun Bootstrap dengan CSS property dan elemen HTML-nya bisa berfungsi normal, tetap saja framework ini mebutuhkan jQuery untuk membuat desain yang responsif. Jika tidak, Anda hanya bisa menikmati CSS yang statis dan datar. <br><br>
+						Untuk informasi selengkapnya tentang Bootstrap bisa kunjungi halaman web <a href="https://getbootstrap.com/" target="blank">Bootstrap.</a></p>
+				</div>
+			</div>
+		</section>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
